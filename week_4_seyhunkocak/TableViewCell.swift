@@ -10,8 +10,9 @@ import UIKit
 class TableViewCell: UITableViewCell {
 
     @IBOutlet weak var coinLabel: UILabel!
-    @IBOutlet weak var coinSymbolView: UIImageView!
+    @IBOutlet private(set) weak var coinSymbolView: UIImageView!
     @IBOutlet weak var coinValueLabel: UILabel!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

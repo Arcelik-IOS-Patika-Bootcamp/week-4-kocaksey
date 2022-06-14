@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7EAF83E628551C1100500738 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF83E428551C1100500738 /* TableViewCell.swift */; };
 		7EAF83E728551C1100500738 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAF83E528551C1100500738 /* TableViewCell.xib */; };
+		7EAF83EB285532AF00500738 /* JsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF83EA285532AF00500738 /* JsonObject.swift */; };
 		7ECB01AE2855195E00E55A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB01AD2855195E00E55A34 /* AppDelegate.swift */; };
 		7ECB01B02855195E00E55A34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB01AF2855195E00E55A34 /* SceneDelegate.swift */; };
 		7ECB01B22855195E00E55A34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB01B12855195E00E55A34 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		7EAF83E428551C1100500738 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		7EAF83E528551C1100500738 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		7EAF83EA285532AF00500738 /* JsonObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonObject.swift; sourceTree = "<group>"; };
 		7ECB01AA2855195E00E55A34 /* week_4_seyhunkocak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week_4_seyhunkocak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECB01AD2855195E00E55A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ECB01AF2855195E00E55A34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				7ECB01B62855196000E55A34 /* Assets.xcassets */,
 				7ECB01B82855196000E55A34 /* LaunchScreen.storyboard */,
 				7ECB01BB2855196000E55A34 /* Info.plist */,
+				7EAF83EA285532AF00500738 /* JsonObject.swift */,
 			);
 			path = week_4_seyhunkocak;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				7ECB01B22855195E00E55A34 /* ViewController.swift in Sources */,
 				7EAF83E628551C1100500738 /* TableViewCell.swift in Sources */,
 				7ECB01AE2855195E00E55A34 /* AppDelegate.swift in Sources */,
+				7EAF83EB285532AF00500738 /* JsonObject.swift in Sources */,
 				7ECB01B02855195E00E55A34 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
